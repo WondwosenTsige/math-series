@@ -1,1 +1,1 @@
-[pullrequest](https://github.com/WondwosenTsige/math-series/pull/1)
+[Pull_request](https://github.com/WondwosenTsige/math-series/pull/1)
