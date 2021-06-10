@@ -36,5 +36,5 @@ def test_one_lucas():
 
 def test_not_zero_or_one_lucas():
     actual = lucas(11)
-    expected = 124
+    expected = 199
     assert actual == expected
