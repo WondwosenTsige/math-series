@@ -24,3 +24,4 @@ def lucas(n):
         return 1
     else:
         return lucas(n-1) + lucas(n-2)
+
