@@ -4,7 +4,7 @@ from  math_series.series import *
 def test_version():
     assert __version__ == '0.1.0'
 
-# Test case for fibonaci
+# Test case for fibonaci series
 
 def test_zero():
     actual = fibonaci(0)
@@ -22,7 +22,7 @@ def test_not_zero_or_one():
     assert actual == expected
 
 
-# Test cases for Lucas 
+# Test cases for Lucas numbers
 
 def test_zero_lucas():
     actual = lucas(0)

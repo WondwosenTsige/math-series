@@ -1,3 +1,6 @@
+# The following fibonaci function will take one parameter
+# The function should return the nth value in fibonaci series
+
 def fibonaci(n):
 
     """ if n == 0:
@@ -10,6 +13,8 @@ def fibonaci(n):
     else: 
         return fibonaci(n-1) + fibonaci(n-2)
 
+# The following Lucas function will take one parameter
+# The function should return the nth value in the Lucas series
 
 def lucas(n):
 
