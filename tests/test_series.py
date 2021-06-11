@@ -38,3 +38,16 @@ def test_not_zero_or_one_lucas():
     actual = lucas(11)
     expected = 199
     assert actual == expected
+
+
+# Test cases for Sum series
+
+def test_default_sum():
+    actual = sum_series(8)
+    expected = 21
+    assert actual == expected
+
+def test_two_and_one_sum():
+    actual = sum_series(11,2,1)
+    expected = 199
+    assert actual == expected

@@ -24,3 +24,12 @@ def lucas(n):
         return 1
     else:
         return lucas(n-1) + lucas(n-2)
+
+def sum_series(n,x = 0,y = 1):
+    
+    if x == 0 and y ==1:
+        return fibonaci(n)
+    if x == 2 and y ==1:
+        return lucas(n)
+
+
